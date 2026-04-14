@@ -1,0 +1,21 @@
+{
+  "$schema": "https://anthropic.com/claude-code/marketplace.schema.json",
+  "name": "dummy-skill-marketplace",
+  "description": "Dummy skill for smoke testing ai-tdd container skill installation.",
+  "owner": {
+    "name": "nnovaeshc",
+    "url": "https://github.com/nnovaeshc/dummy-skill"
+  },
+  "plugins": [
+    {
+      "name": "dummy-skill",
+      "description": "Test skill for verifying local skill installation in the ai-tdd container.",
+      "source": {
+        "source": "github",
+        "repo": "nnovaeshc/dummy-skill",
+        "sha": "1efb675f83d20569d60c701c42b86b995c3ab959"
+      },
+      "category": "testing"
+    }
+  ]
+}
